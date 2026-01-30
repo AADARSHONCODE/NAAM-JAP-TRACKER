@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #222;
+}
+
+.container {
+  max-width: 420px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+@media (max-width: 600px) {
+  body {
+    background: #ffffff;
+  }
+
+  .container {
+    margin: 10px;
+    padding: 15px;
+  }
+}
+.theme-btn {
+  background: transparent;
+  border: none;
+  color: #161515;
+  cursor: pointer;
+  margin: 10px auto 20px;
+  display: block;
+  font-size: 14px;
+}
+
+
+
+.dark {
+  background: #121212;
+  color: #eaeaea;
+}
+
+.dark .container {
+  background: #1e1e1e;
+}
+
+
+.dark input,
+.dark textarea {
+  background: #2a2a2a;
+  color: #171515;
+  border: 1px solid #444;
+}
+
+.dark button {
+  background: #eaeaea;
+  color: #121212;
+}
+.dark .subtitle {
+  color: #aaa;
+}

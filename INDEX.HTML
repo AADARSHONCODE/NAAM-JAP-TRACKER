@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sadhana Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Sadhana Tracker</h1>
+    <p class="subtitle">Daily spiritual discipline</p>
+<button id="themeToggle" class="theme-btn">🌙 Dark Mode</button>
+
+
+    <form id="sadhanaForm">
+      <label>Naam-Jap Count</label>
+      <input type="number" id="japCount" placeholder="e.g. 108" required>
+
+      <label>Meditation Time (minutes)</label>
+      <input type="number" id="meditationTime" placeholder="e.g. 30" required>
+
+      <label>One-line Reflection</label>
+      <input <textarea id="reflection" rows="3" placeholder="What did you notice today?" required></textarea>
+
+
+
+      <button type="submit">Save Today’s Practice</button>
+    </form>
+
+    <h2>Practice Log</h2>
+    <ul id="logList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
